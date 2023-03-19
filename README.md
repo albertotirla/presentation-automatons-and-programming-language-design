@@ -44,4 +44,17 @@ for the function presented [before](waiting_for_futures_async_await_pattern.rs),
   * delta(s2, s3)=s3
 
 not quite accurate code for that transformation can be found [here](from_futures_to_automatons.rs)
+
 note: this is not how the compiler does it precisely, it uses a more optimised structure, for now it's [generators](https://doc.rust-lang.org/nightly/unstable-book/language-features/generators.html), but that's an implementation detail
+
+## further reading and bibliography
+
+* <https://rust-lang.github.io/async-book/>
+* <https://www.codeproject.com/Articles/1087619/State-Machine-Design-in-Cplusplus-2>
+* <https://www.javatpoint.com/preemptive-vs-cooperative-multitasking>
+* <https://fasterthanli.me/articles/futures-nostalgia>
+* <https://fasterthanli.me/articles/a-rust-match-made-in-hell>
+* <https://fasterthanli.me/articles/understanding-rust-futures-by-going-way-too-deep>
+
+THE
+END
